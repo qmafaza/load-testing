@@ -18,15 +18,15 @@ const args = process.argv.slice(2);
 if (args.length === 0 || args.includes('--help')) {
   console.log(`
 Usage:
-  node create-file.js <filename> <size><unit>
+  node create_file.js <filename> <size><unit>
   
 Examples:
-  node create-file.js file1.txt 1kb
-  node create-file.js test.txt 100kb
-  node create-file.js big.txt 1mb
+  node create_file.js file1.txt 1kb
+  node create_file.js test.txt 100kb
+  node create_file.js big.txt 1mb
 
 Or:
-  node create-file.js --all   # Create 1kb, 100kb, and 1mb test files
+  node create_file.js --all   # Create 1kb, 100kb, and 1mb test files
 `);
   process.exit(0);
 }
